@@ -1,0 +1,16 @@
+{
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "weights": {
+    "must_have": 0.55,
+    "semantic": 0.25,
+    "nice_to_have": 0.1,
+    "seniority": 0.1
+  },
+  "related_threshold": 0.6,
+  "related_credit": 0.5,
+  "cosine_floor": 0.3,
+  "cosine_ceil": 0.9,
+  "qualify_threshold": 0.6,
+  "n_jobs": 2500,
+  "n_skills": 73
+}

@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and checkpoints
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.cache/
+datasets/.cache/
+
+# Large precomputed embeddings
+models/embeddings/resume_emb.npy
+
+# Environments
+.env
+.env.*
+venv/
+.venv/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

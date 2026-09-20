@@ -1,0 +1,21 @@
+# JobMatch AI - Intelligent Resume & Job Matching System
+# Install with: pip install -r requirements.txt
+
+# --- data ---
+pandas>=2.0
+numpy>=1.24
+pyarrow>=14.0
+
+# --- machine learning / NLP ---
+scikit-learn>=1.3
+sentence-transformers>=3.0
+torch>=2.0
+
+# --- resume parsing ---
+PyMuPDF>=1.24
+
+# --- app & testing ---
+streamlit>=1.30
+pytest>=8.0
+pytest-cov>=4.0
+matplotlib>=3.7
